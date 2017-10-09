@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+		<script>
+			/*							数组          			json
+			
+  			for...in		下标(key)				key
+  			for...of		值(value)			×
+  		*/
+  		
+	    let json={a: 12, b: 5, c: 99};
+	
+	    for(let i in json){
+	      console.log(i);
+	      //对象的key
+	    }
+		
+	    for(let i of json){
+	      console.log(i);
+	      //报错
+	    }
+    </script>
+  </body>
+</html>

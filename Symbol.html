@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+<script type="text/javascript">
+	
+	var zyh = Symbol();
+	
+	var arr = [1,2,3,4];
+	Array.prototype.push[zyh] = function(str){
+		alert(str);
+	}
+	
+	arr.push(5);
+	
+	arr.push[zyh]('呵呵');
+	
+	
+	console.log(arr)
+	
+</script>
+</body>
+</html>
